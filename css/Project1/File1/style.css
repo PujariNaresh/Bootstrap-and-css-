@@ -1,0 +1,94 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins';
+color: #a3a5ae;
+background-color: #fafafa;
+ }
+body p {
+font-size: 15px;
+ }
+body h1, body h4 {
+font-size: 15px;
+color: #4c4e61;
+margin: 23px 0 0 0; 
+}
+header {
+margin: 83px 35px 75px;
+text-align: center; 
+}
+header .title {
+font-weight: 200;
+ }
+header h1 {
+font-size: 15px; 
+}
+.row {
+display: block;
+margin: 80px;
+}
+.row .card {
+background-color: #fff;
+box-shadow: 0 34px 38px 0 HSLA(229, 6%, 66%, 0.3);
+/* transition: 0.3s; */
+border-radius: 5px;
+margin-bottom: 25px; 
+}
+.row .card .container {
+margin: 0px 27px;
+padding: 0 0 1px; 
+}
+.row .card .container p {
+font-size: 15px;
+margin-top: 2px;
+margin-bottom: 31px;
+line-height: 24px; 
+}
+.row .card .container .icons {
+text-align: right;
+margin-bottom: 21px; 
+}
+.row .card .container .icons .icon-imgs {
+width: 57px; }
+.row .color1 {
+border-top: 3px solid #45d3d3; 
+}
+.row .color2 {
+border-top: 3px solid #ea5353; 
+}
+.row .color3 {
+border-top: 3px solid #fcaf4a; 
+}
+.row .color4 {
+border-top: 3px solid #549ef2; 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width:768px) and (max-width: 1440px) {
+main {
+width: 100%;
+/* max-width: 1175px; */
+margin: 0 auto; 
+}
+main .header {
+width: 600px;
+margin: auto; 
+}
+main .header h1 {
+font-size: 15px;
+line-height: 49px; 
+}
+main .row {
+display: flex;
+align-items: center; 
+}
+main .row .middle {
+display: flex;
+flex-flow: column wrap;
+margin: 0 25px;
+align-content: center; 
+}
+main .row .card {
+max-width: 355px; 
+} 
+}
